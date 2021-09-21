@@ -17,12 +17,12 @@ let userId: any = "justus24";
 // The any type is useful when you don’t want to write out a long type just to convince TypeScript that a particular line of code is okay.
 
 // noImplicitAny
-const fn1 = (username) => {
-  console.log(`Hello ${username}`);
-  console.log(
-    "The compiler flag 'noImplicitAny' is flagging 'username' as an error because the type is set implicitly to 'any'."
-  );
-};
+// const fn1 = (username) => {
+//   console.log(`Hello ${username}`);
+//   console.log(
+//     "The compiler flag 'noImplicitAny' is flagging 'username' as an error because the type is set implicitly to 'any'."
+//   );
+// };
 
 const fn2 = (username: string) => {
   console.log(`Hello ${username}`);
@@ -36,3 +36,6 @@ const fn2 = (username: string) => {
 let myName: string = "Ediongsenyene";
 
 // Functions
+const url = "https://www.g-lh.org/lh-02";
+const regexpTest = /\b^w+\b/g;
+console.log(url.match(regexpTest));
